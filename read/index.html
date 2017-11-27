@@ -1,0 +1,137 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta name="viewport" content="width = 1050, user-scalable = no" />
+
+	<meta name="title" content="Ber-DUATIGA TAHUN - vsco.co/adventurejournal">
+	<meta name="description" content="Happy Birthday @kakakrizka !">
+	<meta name="author" content="@andirkh">
+
+	<meta property="og:locale" content="id_ID">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="http://andirkh.com">
+	<meta property="og:title" content="Ber-DUATIGA TAHUN - vsco.co/adventurejournal">
+	<meta property="og:url" content="http://andirkh.com/adventure-journal/read">
+	<meta property="og:image" content="http://andirkh.com/adventure-journal/pages-lite/page1.jpg">
+	<meta property="og:description" content="Happy Birthday @kakakrizka !">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Ber-DUATIGA TAHUN - vsco.co/adventurejournal">
+	<meta name="twitter:description" content="Happy Birthday @kakakrizka !">
+	<meta name="twitter:site" content="http://andirkh.com">
+	<meta name="twitter:creator" content="@andirkh">
+	<meta name="twitter:image" content="http://andirkh.com/adventure-journal/pages-lite/page1.jpg">
+
+	<link rel="shortcut icon" href="../favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/jpg" sizes="32x32" href="../favicons/favicon-32x32.png">
+	<link rel="icon" type="image/jpg" sizes="16x16" href="../favicons/favicon-16x16.png">
+	<link rel="manifest" href="../favicons/manifest.json">
+	<meta name="theme-color" content="#ffffff">
+
+	<title> Ber-DUATIGA TAHUN : episode 2 </title>
+
+	<script type="text/javascript" src="../extras/jquery.min.1.7.js"></script>
+	<script type="text/javascript" src="../extras/modernizr.2.5.3.min.js"></script>
+</head>
+<body>
+
+<div class="flipbook-viewport">
+	<div class="container">
+		<div class="flipbook">
+			<div class="page" style="background-image:url(../pages-lite/page1.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page2.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page2.1.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page3.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page4.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page4.1.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page-ads1.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page5.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page6.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page7.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page8.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page9.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page10.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page10.0.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page10.1.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page11.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page12.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page13.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page14.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page15.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page16.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page17.jpg)"></div>
+			<div class="double" style="background-image:url(../pages-lite/page18.jpg)"></div>
+
+			<div class="page" style="background-image:url(../pages-lite/page-end.jpg)"></div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+alert("pakai mode landscape dan harap bersabar karena beban halaman 4MB ++")
+
+function loadApp() {
+
+	var flipbook = $('.flipbook');
+
+ 	// Check if the CSS was already loaded
+
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Elevation
+
+			elevation: 50,
+
+			// Enable gradients
+
+			gradients: true,
+
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['../lib/turn.min.js'],
+	nope: ['../lib/turn.html4.min.js'],
+	both: ['../lib/scissor.min.js', '../css/double-page.css'],
+	complete: loadApp
+});
+
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61952975-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61952975-4');
+</script>
+
+
+</body>
+</html>
